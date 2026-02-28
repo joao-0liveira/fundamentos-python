@@ -1,0 +1,7 @@
+print('===== DESAFIO 09 =====')
+print('Olá, seja bem vindo a nossa conveniência Fellas & CIA.')
+print('Excepcionalmente no dia de hoje, todos os nossos produtos se escontram com um desconto de 5% em seu valor!')
+valor = float(input('Para descobrir qual será o novo valor do produto que deseja comprar, digite a seguir o seu valor: '))
+print(f'Ótimo! O valor do produto que você deseja é de: R${valor:.2f}.')
+print(f'Porém, aplicando o desconto de 5%, o valor do seu produto cairá para: R${valor*0.95:.2f}!')
+print('Aproveite a nossa promoção exclusiva para o dia de hoje e venha adquirir o seu produto!')

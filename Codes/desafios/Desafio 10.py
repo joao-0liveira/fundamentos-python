@@ -1,0 +1,8 @@
+print('===== DESAFIO 10 =====')
+print('Olá, funcionário! Seja bem- vindo ao portal da empresa Fellas Cut LTDA.')
+nome = str(input('Para seguirmos para a tela de informações, digite o seu nome completo a seguir: '))
+print(f'Ótimo, funcionário {nome}! Existe uma notifição disponível para você na caixa de entrada!')
+print('A nossa empresa está aumentando em 15% o salário dos funcionários do setor a partir do próximo mês!')
+salario = float(input('Para saber o seu novo salário, digite o valor do seu salário atual a seguir: '))
+print(f'Com o aumento oferecido pela empresa, o seu salário de: R${salario:.2f}, será de: R${salario*1.15:.2f} no próximo mês!')
+print('Agradecemos sua contribuição na empresa Fellas Cut LTDA!')

@@ -1,0 +1,11 @@
+import math
+print('='*5, 'DESAFIO 11', '='*5)
+print('Olá! Seja bem vindo ao nosso programa de trigonometria!')
+print('Aqui você poderá calcular a hipotenusa de qualquer triângulo que desejar, \nBasta nos informar o valor dos catetos. Pronto?')
+cateto1 = float(input('Para darmos início, digite o valor do cateto adjacente: '))
+cateto2 = float(input('Agora, digite o valor do cateto oposto a seguir: '))
+print(f'Ótimo! A seguir está o resultado da hipotenusa de um triângulo de catetos {cateto1} e {cateto2}: ')
+#print(f'Hipotenusa: {((cateto1**2)+(cateto2**2))**(1/2):.2f}')
+#hipotenusa = (math.hypot(cateto1, cateto2))
+print(f'Hipotenusa: {math.hypot(cateto1, cateto2)}')
+print('Obrigado por usar a nossa calculadora!')

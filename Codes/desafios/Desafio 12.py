@@ -1,0 +1,10 @@
+import math
+print('='*5, 'DESAFIO 12', '='*5)
+print('Olá, seja bem vindo à nossa calculadora trigonométrica!')
+print('Aqui você poderá calcular o SENO, o COSSENO e a TANGENTE de qualquer ângulo que desejar no ciclo trigonométrico! \n Basta nos informar o valor do ângulo desejado.')
+angulo = float(input('Para começarmos, digite a seguir o ângulo de interesse, em graus: '))
+print(f'Ótimo! De acordo com nossas análises o ângulo escolhido foi: {angulo} graus')
+print(f'O valor do seu SENO é: {math.sin(math.radians(angulo)):.2f}')
+print(f'O valor do seu COSSENO é: {math.cos(math.radians(angulo)):.2f}')
+print(f'E por fim, o valor da sua TANGENTE é: {math.tan(math.radians(angulo)):.2f}')
+print('Obrigado por usar a nossa calculadora!')

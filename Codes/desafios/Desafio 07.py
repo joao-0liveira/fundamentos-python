@@ -1,0 +1,7 @@
+print('===== DESAFIO 07 =====')
+print('Olá, seja muito bem-vindo ao nosso programa!')
+print('Aqui você terá acesso a uma calculadora que lhe mostrará quantos doláres você poderá comprar!')
+valor = float(input('Para iniciarmos, precisamos saber quantos reais você tem disponível em sua carteira: '))
+print(f'Ótimo, você possui: R${valor:.2f} dispoíveis em sua carteira!')
+print(f'Com esse valor, você conseguirá obter um total de: US${valor/5.26:.2f}!')
+print('Obrigado por usar a nossa calculadora!')

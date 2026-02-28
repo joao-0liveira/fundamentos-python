@@ -1,0 +1,5 @@
+print('===== DESAFIO 01 =====')
+n1 = int(input('Por favor, digite um número a seguir: '))
+n2 = int(input('Por favor, digite outro número: '))
+print(f'A soma entre {n1} e {n2} é igual a {n1 + n2}.')
+print('Obrigado por usar nosso programa!')

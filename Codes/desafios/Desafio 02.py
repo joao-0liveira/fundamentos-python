@@ -1,0 +1,6 @@
+print('===== DESAFIO 02 =====')
+print('Bem vindo ao nosso programa! Aqui você poderá ver o sucessor e o antecessor de qualquer número que escolher"')
+n1 = int(input('Para isso, digite um número qualquer a seguir: '))
+print(f'Perfeito! O número escolhido foi: {n1}.')
+print(f'O sucessor de {n1} é: {n1+1}.')
+print(f'E o antececessor de {n1} é: {n1-1}.')
