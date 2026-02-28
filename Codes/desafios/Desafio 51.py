@@ -26,13 +26,12 @@ expressao = ''
 
 while contador < 10:
     expressao = expressao + f'{soma} + '
-    soma = soma + razao           #correção da progressão
+    soma = soma + razao
     contador = contador + 1
 
 print(f'''\nA progressão que inicia-se no termo: {colors['blue']}{termo1}{Style.RESET_ALL}, e de razão: {colors['blue']}{razao}{Style.RESET_ALL},
 pode ser escrita da seguinte forma: {Style.BRIGHT}{colors['yellow']}{expressao}{termo1*10}{Style.RESET_ALL}.''')
 
-#aprimoramento se o usuário quiser escolher um novo número de termos para a progressão
 pergunta = str(input(f'\nDigite {colors['blue']}[S]{Style.RESET_ALL} para escolher um outro número de termos para essa progressão ou {colors['red']}[N]{Style.RESET_ALL} para finalizar o programa: ')).lower()
 
 if pergunta == 'n':
