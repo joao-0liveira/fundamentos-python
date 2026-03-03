@@ -20,7 +20,7 @@ print(f'''Aqui você terá a oportunidade de digitar quantos números quiser, e 
 contador = soma = numero = 0
 
 while True:
-    numero = int(input(f'\nDigite umm número de sua escolha a seguir [{colors['red']}999{Style.RESET_ALL} para {colors['red']}PARAR{Style.RESET_ALL}]: '))
+    numero = int(input(f'\nDigite um número de sua escolha a seguir [{colors['red']}999{Style.RESET_ALL} para {colors['red']}PARAR{Style.RESET_ALL}]: '))
     if numero == 999:
         break
     soma = soma + numero
