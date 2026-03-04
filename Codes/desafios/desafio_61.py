@@ -12,5 +12,6 @@ while True:
     numero = int(input('\nDigite um número a seguir: '))
     if 0 <= numero <= 20:
         break
-
-print(f'Você digitou o número {color['yellow']}{numeros[numero]}{Style.RESET_ALL}.')
+    print('\nNúmero inálido! Digite um entre 0 e 20. ', end='')
+        
+print(f'\nVocê digitou o número {color['yellow']}{numeros[numero]}{Style.RESET_ALL}.')
