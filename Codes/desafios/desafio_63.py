@@ -9,7 +9,6 @@ colors = {
     'yellow': Fore.YELLOW
 }
 
-contador = 1
 lista = ()
 sorteio = random.sample(range(1, 10), k=5)
 
