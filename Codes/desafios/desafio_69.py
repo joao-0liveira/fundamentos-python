@@ -8,23 +8,20 @@ colors = {
 
 lista = []
 
-numero = int(input('Digite um valor a seguir: '))
-lista.append(numero)
-print('Número adicinado ao final da lista.')
+for c in range(0, 5):
+    numeros = int(input('\nDigite um número a seguir: '))
 
-for contador in range(1, 5):
-    numeros = int(input('\nDigite um valor a seguir: '))
-
-    if lista[0] < numeros and numeros < lista[1]:
-        lista.insert(1, numeros)
-        print('Número adicionado na posição 1 da lista.')
-    
-    elif numeros > lista[0]:
+    if c == 0 or numeros > lista[-1]:
         lista.append(numeros)
-        print('Número adicionado no meio da lista.')
-    
-    elif numeros < lista[0]:
-        lista.insert(0, numeros)
-        print('Número adicionado no começo da lista.')
-    
+        print('Número adicionado ao final da lista')
+    else:
+        
+        pos = 0
+        while pos < len(lista):
+            if numeros <= lista[pos]:
+                lista.insert(pos, numeros)
+                print(f'Número adicionado na posição {pos+1}')
+                break
+            pos = pos + 1
+            
 print(f'\nDe acordo com os dados fornecidos, a lista, em ordem, ficou da seguinte forma: {colors['yellow']}{lista}{Style.RESET_ALL}.')
