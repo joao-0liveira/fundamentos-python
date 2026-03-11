@@ -26,5 +26,5 @@ impar.clear()
 
 print()
 print('-='*20)
-print(f'1- Os {colors['blue']}valores pares{Style.RESET_ALL} digitados foram: {colors['yellow']}{lista[0]}{Style.RESET_ALL},')
-print(f'2- Os {colors['blue']}valores ímpares{Style.RESET_ALL} digitadops foram: {colors['yellow']}{lista[1]}{Style.RESET_ALL}.')
+print(f'1- Os {colors['blue']}valores pares{Style.RESET_ALL} digitados foram: {colors['yellow']}{sorted(lista[0])}{Style.RESET_ALL},')
+print(f'2- Os {colors['blue']}valores ímpares{Style.RESET_ALL} digitadops foram: {colors['yellow']}{sorted(lista[1])}{Style.RESET_ALL}.')
